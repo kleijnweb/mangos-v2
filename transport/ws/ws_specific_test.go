@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go/mangos/v2/protocol/rep"
-	"nanomsg.org/go/mangos/v2/protocol/req"
+	"github.com/kleijnweb/mangos-v2/protocol/rep"
+	"github.com/kleijnweb/mangos-v2/protocol/req"
 	//"nanomsg.org/go-mangos/test"
 )
 

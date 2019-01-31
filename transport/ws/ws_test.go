@@ -17,7 +17,7 @@ package ws
 import (
 	"testing"
 
-	"nanomsg.org/go/mangos/v2/test"
+	"github.com/kleijnweb/mangos-v2/test"
 )
 
 var tt = test.NewTranTest(Transport, "ws://127.0.0.1:3395/mysock")

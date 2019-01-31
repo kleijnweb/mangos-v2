@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go/mangos/v2"
-	"nanomsg.org/go/mangos/v2/transport/all"
+	"github.com/kleijnweb/mangos-v2"
+	"github.com/kleijnweb/mangos-v2/transport/all"
 )
 
 var cliCfg, _ = NewTLSConfig(false)

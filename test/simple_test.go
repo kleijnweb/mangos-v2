@@ -20,9 +20,9 @@ import (
 	"sync"
 	"testing"
 
-	"nanomsg.org/go/mangos/v2"
-	"nanomsg.org/go/mangos/v2/protocol/pair"
-	_ "nanomsg.org/go/mangos/v2/transport/tcp"
+	"github.com/kleijnweb/mangos-v2"
+	"github.com/kleijnweb/mangos-v2/protocol/pair"
+	_ "github.com/kleijnweb/mangos-v2/transport/tcp"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

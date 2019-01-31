@@ -9,8 +9,8 @@ image:https://img.shields.io/circleci/project/github/nanomsg/mangos.svg?label=li
 image:https://img.shields.io/badge/license-APACHE2-blue.svg[Apache License,link="https://github.com/nanomsg/mangos-v2/blob/master/LICENSE"]
 image:https://img.shields.io/badge/gitter-join-brightgreen.svg[Gitter,link="https://gitter.im/nanomsg/nanomsg",align=left]
 image:https://codecov.io/gh/nanomsg/mangos-v2/branch/master/graph/badge.svg?label=coverage[Coverage,link="https://codecov.io/gh/nanomsg/mangos-v2"]
-image:https://img.shields.io/badge/godoc-reference-blue.svg[GoDoc,link="https://godoc.org/nanomsg.org/go/mangos/v2"]
-image:https://goreportcard.com/badge/nanomsg.org/go/mangos/v2[Go Report Card,link="https://goreportcard.com/report/nanomsg.org/go/mangos/v2"]
+image:https://img.shields.io/badge/godoc-reference-blue.svg[GoDoc,link="https://godoc.org/github.com/kleijnweb/mangos-v2"]
+image:https://goreportcard.com/badge/github.com/kleijnweb/mangos-v2[Go Report Card,link="https://goreportcard.com/report/github.com/kleijnweb/mangos-v2"]
 //image:https://img.shields.io/appveyor/ci/nanomsg/mangos-v2.svg?label=windows[Windows Status,link="https://ci.appveyor.com/project/nanomsg/mangos-v2"]
 
 
@@ -61,7 +61,7 @@ Additionally there are a number of projects that use the two products together.
 
 ===  Using *go get*
 
-    $ go get -u nanomsg.org/go/mangos/v2
+    $ go get -u github.com/kleijnweb/mangos-v2
 
 You can use `go get -u -a` to update all installed packages.
 
@@ -69,7 +69,7 @@ You can use `go get -u -a` to update all installed packages.
 
 For docs, see http://godoc.org/nanomsg.org/go-mangos or run:
 
-    $ godoc nanomsg.org/go/mangos/v2
+    $ godoc github.com/kleijnweb/mangos-v2
 
 == Testing
 
@@ -77,11 +77,11 @@ This package supports internal self tests, which can be run in
 the idiomatic Go way.
 (Note that most of the tests are in a test subdirectory.)
 
-    $ go test nanomsg.org/go/mangos/v2/...
+    $ go test github.com/kleijnweb/mangos-v2/...
 
 There are also internal benchmarks available:
 
-    $ go test -bench=. nanomsg.org/go/mangos/v2/test
+    $ go test -bench=. github.com/kleijnweb/mangos-v2/test
 
 ## Commercial Support
 

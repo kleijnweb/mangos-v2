@@ -18,15 +18,15 @@
 package all
 
 import (
-	"nanomsg.org/go/mangos/v2"
+	"github.com/kleijnweb/mangos-v2"
 
 	// import transports
-	_ "nanomsg.org/go/mangos/v2/transport/inproc"
-	_ "nanomsg.org/go/mangos/v2/transport/ipc"
-	_ "nanomsg.org/go/mangos/v2/transport/tcp"
-	_ "nanomsg.org/go/mangos/v2/transport/tlstcp"
-	_ "nanomsg.org/go/mangos/v2/transport/ws"
-	_ "nanomsg.org/go/mangos/v2/transport/wss"
+	_ "github.com/kleijnweb/mangos-v2/transport/inproc"
+	_ "github.com/kleijnweb/mangos-v2/transport/ipc"
+	_ "github.com/kleijnweb/mangos-v2/transport/tcp"
+	_ "github.com/kleijnweb/mangos-v2/transport/tlstcp"
+	_ "github.com/kleijnweb/mangos-v2/transport/ws"
+	_ "github.com/kleijnweb/mangos-v2/transport/wss"
 )
 
 // AddTransports adds all known transports to the given socket.

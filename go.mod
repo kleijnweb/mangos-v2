@@ -1,4 +1,4 @@
-module nanomsg.org/go/mangos/v2
+module github.com/kleijnweb/mangos-v2
 
 require (
 	github.com/Microsoft/go-winio v0.4.11

@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"nanomsg.org/go/mangos/v2/errors"
+	"github.com/kleijnweb/mangos-v2/errors"
 
-	"nanomsg.org/go/mangos/v2"
-	"nanomsg.org/go/mangos/v2/transport"
+	"github.com/kleijnweb/mangos-v2"
+	"github.com/kleijnweb/mangos-v2/transport"
 )
 
 type dialer struct {

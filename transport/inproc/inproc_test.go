@@ -17,7 +17,7 @@ package inproc
 import (
 	"testing"
 
-	"nanomsg.org/go/mangos/v2/test"
+	"github.com/kleijnweb/mangos-v2/test"
 )
 
 var tt = test.NewTranTest(Transport, "inproc://testname")

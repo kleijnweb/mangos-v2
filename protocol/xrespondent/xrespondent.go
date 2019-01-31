@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"nanomsg.org/go/mangos/v2/protocol"
+	"github.com/kleijnweb/mangos-v2/protocol"
 )
 
 // Protocol identity information.

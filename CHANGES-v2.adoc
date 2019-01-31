@@ -16,7 +16,7 @@ Some of this is still in transition, so YMMV.
 
 == Import path changed
 
-Use `nanomsg.org/go/mangos/v2` as the base URL for imports.
+Use `github.com/kleijnweb/mangos-v2` as the base URL for imports.
 
 == Go v1.9 Or Better Required
 

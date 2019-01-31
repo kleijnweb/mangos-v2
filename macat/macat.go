@@ -31,19 +31,19 @@ import (
 
 import (
 	"github.com/droundy/goopt"
-	"nanomsg.org/go/mangos/v2"
-	"nanomsg.org/go/mangos/v2/protocol/bus"
-	"nanomsg.org/go/mangos/v2/protocol/pair"
-	"nanomsg.org/go/mangos/v2/protocol/pub"
-	"nanomsg.org/go/mangos/v2/protocol/pull"
-	"nanomsg.org/go/mangos/v2/protocol/push"
-	"nanomsg.org/go/mangos/v2/protocol/rep"
-	"nanomsg.org/go/mangos/v2/protocol/req"
-	"nanomsg.org/go/mangos/v2/protocol/respondent"
-	"nanomsg.org/go/mangos/v2/protocol/star"
-	"nanomsg.org/go/mangos/v2/protocol/sub"
-	"nanomsg.org/go/mangos/v2/protocol/surveyor"
-	"nanomsg.org/go/mangos/v2/transport/all"
+	"github.com/kleijnweb/mangos-v2"
+	"github.com/kleijnweb/mangos-v2/protocol/bus"
+	"github.com/kleijnweb/mangos-v2/protocol/pair"
+	"github.com/kleijnweb/mangos-v2/protocol/pub"
+	"github.com/kleijnweb/mangos-v2/protocol/pull"
+	"github.com/kleijnweb/mangos-v2/protocol/push"
+	"github.com/kleijnweb/mangos-v2/protocol/rep"
+	"github.com/kleijnweb/mangos-v2/protocol/req"
+	"github.com/kleijnweb/mangos-v2/protocol/respondent"
+	"github.com/kleijnweb/mangos-v2/protocol/star"
+	"github.com/kleijnweb/mangos-v2/protocol/sub"
+	"github.com/kleijnweb/mangos-v2/protocol/surveyor"
+	"github.com/kleijnweb/mangos-v2/transport/all"
 )
 
 var verbose int

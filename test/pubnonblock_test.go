@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go/mangos/v2"
-	"nanomsg.org/go/mangos/v2/protocol/pub"
-	_ "nanomsg.org/go/mangos/v2/transport/tcp"
+	"github.com/kleijnweb/mangos-v2"
+	"github.com/kleijnweb/mangos-v2/protocol/pub"
+	_ "github.com/kleijnweb/mangos-v2/transport/tcp"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

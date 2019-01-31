@@ -19,11 +19,11 @@ import (
 
 	"time"
 
-	"nanomsg.org/go/mangos/v2"
-	"nanomsg.org/go/mangos/v2/protocol/bus"
-	"nanomsg.org/go/mangos/v2/protocol/xbus"
+	"github.com/kleijnweb/mangos-v2"
+	"github.com/kleijnweb/mangos-v2/protocol/bus"
+	"github.com/kleijnweb/mangos-v2/protocol/xbus"
 
-	_ "nanomsg.org/go/mangos/v2/transport/inproc"
+	_ "github.com/kleijnweb/mangos-v2/transport/inproc"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

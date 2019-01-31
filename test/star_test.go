@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"nanomsg.org/go/mangos/v2"
-	"nanomsg.org/go/mangos/v2/protocol/star"
-	"nanomsg.org/go/mangos/v2/protocol/xstar"
-	_ "nanomsg.org/go/mangos/v2/transport/all"
+	"github.com/kleijnweb/mangos-v2"
+	"github.com/kleijnweb/mangos-v2/protocol/star"
+	"github.com/kleijnweb/mangos-v2/protocol/xstar"
+	_ "github.com/kleijnweb/mangos-v2/transport/all"
 )
 
 type starTester struct {

@@ -33,12 +33,12 @@ import (
 	"os"
 	"time"
 
-	"nanomsg.org/go/mangos/v2"
-	"nanomsg.org/go/mangos/v2/protocol/pub"
-	"nanomsg.org/go/mangos/v2/protocol/sub"
+	"github.com/kleijnweb/mangos-v2"
+	"github.com/kleijnweb/mangos-v2/protocol/pub"
+	"github.com/kleijnweb/mangos-v2/protocol/sub"
 
 	// register transports
-	_ "nanomsg.org/go/mangos/v2/transport/all"
+	_ "github.com/kleijnweb/mangos-v2/transport/all"
 )
 
 func die(format string, v ...interface{}) {
